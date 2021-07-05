@@ -1,0 +1,10 @@
+body {
+    background-color: pink;
+}
+
+p {
+    font-size: 26px; 
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    font-weight: 800;
+}
