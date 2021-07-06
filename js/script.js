@@ -29,7 +29,7 @@ for (var i=1; i < 101; i++) {
     }
 
     else {
-        console.log[i];
+        console.log(i);
         display.innerHTML += i + "</br>"
     }
 }
