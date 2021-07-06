@@ -10,27 +10,29 @@
 */
 
 var display = document.getElementById("result");
-
+var listItems = "";
 
 for (var i=1; i < 101; i++) {
     
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
-        display.innerHTML += "FizzBuzz</br>";
+        listItems += "FizzBuzz</br>";
     }
     else if ( i % 5 === 0 ) {
         console.log("Buzz");
-        display.innerHTML +="Buzz</br>";
+        listItems +="Buzz</br>";
     }
 
     else if (i % 3 === 0) {
         console.log('Fizz');
-        display.innerHTML += "Fizz</br>"
+        listItems += "Fizz</br>"
     }
 
     else {
         console.log(i);
-        display.innerHTML += i + "</br>"
+        listItems += i + "</br>"
     }
 }
+
+display.innerHTML = listItems;
 
